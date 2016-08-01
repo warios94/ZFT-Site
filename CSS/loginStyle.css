@@ -1,0 +1,84 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-size: 87.5%;
+    font-family: Arial;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 12%
+}
+
+@font-face {
+    font-family: 'josefin';
+    src: url('http://localhost/zft/font/JosefinSans-Regular.ttf');
+}
+
+h1{
+    font-size: 3em;
+    font-family: josefin;
+    color: #87ffa9;
+    opacity: 0.85;
+}
+body div {
+
+    position: center;
+    display: block;
+
+}
+
+label {
+    color: #666;
+    display: block;
+    padding-bottom: 9px;
+}
+
+#username{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#password{
+    margin-bottom: 20px;
+}
+#username, #password{
+    padding: 0px 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    background: rgba(135,255,169,0.4);
+    border: 0;
+
+}
+#username:hover , #password:hover{
+    background: rgba(135,255,169,0.6);
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+    font-family: josefin;
+}
+::-moz-placeholder { /* Firefox */
+ color: white;
+    font-family: josefin;
+}
+:-ms-input-placeholder { /* IE */
+  color: white;
+    font-family: josefin;
+}
+:-moz-placeholder { /* Firefox */
+  color: white;
+    font-family: josefin;
+}
+
+#dimentPass{
+    margin-right: 10px;
+    color: #87ffa9;
+    opacity: 0.85;
+    text-decoration: none;
+}
+#dimentPass:hover{
+    color: white;
+    cursor: pointer;
+}
