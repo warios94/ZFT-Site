@@ -96,7 +96,7 @@ header label:hover{
 
 }
 .menu li a {
-    margin-top: 11px;
+    margin-top: 8px;
     vertical-align: center;
     display: block;
     padding: 10px 15px;
@@ -239,7 +239,7 @@ header label:hover{
 .csslider1 {
     display: inline-block;
     position: relative;
-    max-width: 480px;
+    max-width: 100%;
     width: 100%;
     margin-top: 10px;
 }
@@ -249,6 +249,7 @@ header label:hover{
 }
 
 .csslider1 > ul {
+
     position: relative;
     z-index: 1;
     font-size: 0;
@@ -1151,12 +1152,12 @@ header label:hover{
 }
 
 .csslider1 > .cs_arrowprev:hover > label {
-    background-color: #E34B64;
+    background-color: #22cda3;
     width: 70px;
 }
 
 .csslider1 > .cs_arrownext:hover > label {
-    background-color: #E34B64;
+    background-color:#22cda3;
     width: 70px;
 }
 
@@ -1174,7 +1175,7 @@ header label:hover{
 }
 
 .csslider1 > .cs_bullets > label > .cs_thumb {
-    border: 3px solid #E34B64;
+    border: 3px solid #22cda3;
     margin-top: -11px;
     -webkit-transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), -webkit-transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
     -moz-transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), -moz-transform 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275), visibility 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
@@ -1203,7 +1204,7 @@ header label:hover{
     bottom: -8px;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #E34B64;
+    border-top: 7px solid #22cda3;
 }
 
 .csslider1 > .cs_bullets > label:hover > .cs_thumb {
@@ -1228,7 +1229,7 @@ header label:hover{
 }
 
 .csslider1 > .cs_bullets > label.num0 {
-    background-color: #E34B64;
+    background-color: #22cda3;
 }
 
 .csslider1 > .slide:checked ~ .cs_bullets > label {
@@ -1240,11 +1241,11 @@ header label:hover{
 .csslider1 > #cs_slide1_0:checked ~ .cs_bullets > label.num0,
 .csslider1 > #cs_slide1_1:checked ~ .cs_bullets > label.num1,
 .csslider1 > #cs_slide1_2:checked ~ .cs_bullets > label.num2 {
-    background-color: #E34B64;
+    background-color: #22cda3;
 }
 
 .csslider1 > .cs_bullets > label:hover {
-    background-color: #E34B64;
+    background-color: #22cda3;
 }
 
 
@@ -1253,7 +1254,7 @@ header label:hover{
 @-webkit-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color: #E34B64;
+        background-color:#22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1265,7 +1266,7 @@ header label:hover{
 @-moz-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color: #E34B64;
+        background-color:#22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1277,7 +1278,7 @@ header label:hover{
 @-ms-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color: #E34B64;
+        background-color:#22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1289,7 +1290,7 @@ header label:hover{
 @-o-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color: #E34B64;
+        background-color:#22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1301,7 +1302,7 @@ header label:hover{
 @keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color: #E34B64;
+        background-color:#22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1476,7 +1477,7 @@ header label:hover{
     opacity: 0;
     visibility: hidden;
     z-index: 1;
-    background-color: #E34B64;
+    background-color: #22cda3;
     -webkit-transform: rotateX(-90deg);
     -moz-transform: rotateX(-90deg);
     -ms-transform: rotateX(-90deg);
