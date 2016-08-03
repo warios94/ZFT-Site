@@ -1,5 +1,5 @@
 body {
-    background-color: #22cda3;
+    background-color: #333;
     color: #000;
     font-size: 87.5%;
     font-family: Arial;
@@ -8,6 +8,7 @@ body {
     padding: 0;
     text-align: right;
 }
+
 
 /*------- Definizione Font ---------*/
 
@@ -29,14 +30,15 @@ a {
     width: 100%;
 }
 
-#logo_resize{
+#logo_resize {
     width: auto;
     height: 75px;
     display: none;
     position: absolute;
-    top:0;
+    top: 0;
     left: 60%;
 }
+
 .mainHeader nav a:hover,
 .mainHeader nav a:active,
 .mainHeader nav .active a:link,
@@ -47,7 +49,6 @@ a {
 }
 
 .mainHeader {
-
     position: fixed;
     top: 0;
     height: 66px;
@@ -56,31 +57,34 @@ a {
     z-index: 100;
 }
 
-#resizeMenu{
+#resizeMenu {
     display: none;
-
 }
+
 header label {
     display: none;
-
     width: 40px;
     height: 45px;
     padding: 10px;
 }
+
 header label img {
     align-self: center;
     margin-top: 10px;
     margin-left: 5px;
     float: left;
 }
-header label:hover{
+
+header label:hover {
     cursor: pointer;
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
-.logo{
+
+.logo {
     float: left;
 }
-.menu img{
+
+.menu img {
     display: inline-block;
     width: auto;
     height: 75px;
@@ -88,13 +92,13 @@ header label:hover{
 }
 
 .menu ul {
-    vertical-align:middle;
+    vertical-align: middle;
     list-style: none;
     margin: 0;
     display: inline-flex;
     padding: 0;
-
 }
+
 .menu li a {
     margin-top: 8px;
     vertical-align: center;
@@ -103,31 +107,26 @@ header label:hover{
     text-decoration: none;
     font-size: 22px;
     vertical-align: middle;
-    }
-
-
-.menu li a:hover
-{
-    color: white;
-
 }
 
+.menu li a:hover {
+    color: white;
+}
+
+
 /*------ RESIZE MENU ----------*/
-@media (max-width:720px){
+
+@media (max-width:720px) {
     header label {
         display: block;
-
     }
-    #logo_resize{
+    #logo_resize {
         display: flex;
-
-
     }
-    .menu img{
+    .menu img {
         display: none;
     }
-    .menu{
-        
+    .menu {
         position: absolute;
         background: rgba(58, 58, 58, 0.6);
         width: 25%;
@@ -139,19 +138,16 @@ header label:hover{
     .menu ul {
         flex-direction: column;
         align-items: center
-        
     }
-
-    #resizeMenu:checked ~ .menu{
+    #resizeMenu:checked ~ .menu {
         margin: 0;
     }
-
 }
+
 
 /*-------------------------------- Fine Menu ----------------------------------------*/
 
 .mainContent {
-    
     overflow: hidden;
     line-height: 25px;
     text-align: left;
@@ -169,7 +165,6 @@ header label:hover{
 }
 
 .content {
-    
     width: 90%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -181,18 +176,14 @@ header label:hover{
 
 .slideContent {
     padding: 2% 5%;
-    
     text-align: center;
 }
 
 
 /*----------------------------- Footer ---------------------------------------------- */
 
-
 .mainFooter {
-
     position: sticky;
-
     bottom: 0%;
     height: 100%;
     margin-bottom: 0px;
@@ -200,18 +191,15 @@ header label:hover{
     background-color: rgba(58, 58, 58, 0.6);
     font-family: josefin;
     text-align-last: center;
-
-
-
 }
-.mainFooter nav li a{
+
+.mainFooter nav li a {
     display: block;
     text-decoration: none;
     list-style: none;
-
 }
-.mainFooter nav li{
 
+.mainFooter nav li {
     list-style: none;
 }
 
@@ -249,7 +237,6 @@ header label:hover{
 }
 
 .csslider1 > ul {
-
     position: relative;
     z-index: 1;
     font-size: 0;
@@ -1157,7 +1144,7 @@ header label:hover{
 }
 
 .csslider1 > .cs_arrownext:hover > label {
-    background-color:#22cda3;
+    background-color: #22cda3;
     width: 70px;
 }
 
@@ -1254,7 +1241,7 @@ header label:hover{
 @-webkit-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color:#22cda3;
+        background-color: #22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1266,7 +1253,7 @@ header label:hover{
 @-moz-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color:#22cda3;
+        background-color: #22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1278,7 +1265,7 @@ header label:hover{
 @-ms-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color:#22cda3;
+        background-color: #22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1290,7 +1277,7 @@ header label:hover{
 @-o-keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color:#22cda3;
+        background-color: #22cda3;
     }
     33.333333333333336%,
     100% {
@@ -1302,7 +1289,7 @@ header label:hover{
 @keyframes bullet {
     0%,
     33.32333333333334% {
-        background-color:#22cda3;
+        background-color: #22cda3;
     }
     33.333333333333336%,
     100% {
@@ -2187,8 +2174,28 @@ header label:hover{
     animation: none;
 }
 
-@media only screen and (max-width: 480px), only screen and (-webkit-max-device-pixel-ratio: 2) and (max-width: 480px), only screen and ( max--moz-device-pixel-ratio: 2) and (max-width: 480px), only screen and ( -o-max-device-pixel-ratio: 2/1) and (max-width: 480px), only screen and ( max-device-pixel-ratio: 2) and (max-width: 480px), only screen and ( max-resolution: 192dpi) and (max-width: 480px), only screen and ( max-resolution: 2dppx) and (max-width: 480px) {
-    .csslider1 > .cs_description, .csslider1 > .cs_bullets {
+@media only screen and (max-width: 480px),
+only screen and (-webkit-max-device-pixel-ratio: 2) and (max-width: 480px),
+only screen and ( max--moz-device-pixel-ratio: 2) and (max-width: 480px),
+only screen and ( -o-max-device-pixel-ratio: 2/1) and (max-width: 480px),
+only screen and ( max-device-pixel-ratio: 2) and (max-width: 480px),
+only screen and ( max-resolution: 192dpi) and (max-width: 480px),
+only screen and ( max-resolution: 2dppx) and (max-width: 480px) {
+    .csslider1 > .cs_description,
+    .csslider1 > .cs_bullets {
         display: none;
     }
 }
+
+.sezione {
+    list-style: none;
+}
+
+.sezione li {
+    transform: scale(0.6);
+    display: block;
+    display: inline-block;
+    margin-right: 3%;
+}
+
+div.EDGE-168615556 {}

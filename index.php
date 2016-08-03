@@ -5,7 +5,26 @@
     <title>Users Main Page</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="CSS/newStyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-168615556 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('Prova-Pulsante', 'EDGE-168615556', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "550px",
+    height: "400px"
+}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","550px","400px"]}},"dom":{}}, {"dom":{}});
+</script>
+<!--Adobe Edge Runtime End-->
+
+       </head>
 
 <body class="body">
     <header class="mainHeader">
@@ -34,6 +53,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quaslj,cvaòVDUis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
                 </content>
+
             </article>
             <article class="slideContent">
                 <header>
@@ -84,13 +104,23 @@
                             <label class='num0' for='cs_slide1_0'> <span class='cs_point'></span> <span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/buns.jpg' alt='Buns' title='Buns' /></span> </label>
                             <label class='num1' for='cs_slide1_1'> <span class='cs_point'></span> <span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/croissant.jpg' alt='Croissant' title='Croissant' /></span> </label>
                             <label class='num2' for='cs_slide1_2'> <span class='cs_point'></span> <span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/lemonpie.jpg' alt='Lemon pie' title='Lemon pie' /></span> </label>
+                            <label class='num2' for='cs_slide1_2'> <span class='cs_point'></span> <span class='cs_thumb'><a herf="login.html"><img src='http://cssslider.com/sliders/pen/tooltips/lemonpie.jpg' alt='Lemon pie' title='Lemon pie' /></a></span> </label>
                         </div>
                     </div>
+
                     <!-- End cssSlider.com -->
                 </content>
             </article>
         </div>
     </div>
+    <div>
+    <ul class="sezione 3">
+    <li class="sez3-Primo"><div id="Stage" class="EDGE-168615556"></li>
+    <li class="sez3-Primo"><div id="Stage" class="EDGE-168615556"></li>
+
+    </ul>
+	</div>
+	</div>
 </body>
 <footer class="footer">
     <div class="mainFooter">
