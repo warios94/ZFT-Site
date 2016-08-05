@@ -9,9 +9,7 @@
 
     <!--Adobe Edge Runtime-->
     <script type="text/javascript" charset="utf-8" src="http://animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js"></script>
-    <style>
-        .edgeLoad-EDGE-168615556 { visibility:hidden; }
-    </style>
+    <!--Adobe Edge Runtime End-->
 <script>
    AdobeEdge.loadComposition('Prova-Pulsante', 'EDGE-168615556', {
     scaleToFit: "none",
@@ -21,8 +19,17 @@
     width: "550px",
     height: "400px"
 }, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","550px","400px"]}},"dom":{}}, {"dom":{}});
+
+   AdobeEdge.loadComposition('Video%20Intro', 'VideoINTRO', {
+
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "1280px",
+    height: "550px"
+}, {"style":{"${symbolSelector}":{"isStage":"true","rect":["undefined","undefined","1280px","550px"],"fill":["rgba(255,255,255,1)"]}},"dom":{}}, {"dom":{}});
 </script>
-<!--Adobe Edge Runtime End-->
+
 
        </head>
 
@@ -43,19 +50,10 @@
     </header>
     <div class="mainContent">
         <div class="content">
-            <article class="topcontent">
-                <header>
-                    <h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Second article</a></h2> </header>
-                <footer>
-                    <p class="post-info">This was posted on the 2nd of March 2013 by Christian Vasile</p>
-                </footer>
-                <content>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quaslj,cvaòVDUis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                </content>
-
-            </article>
-            <article class="slideContent">
+          <ul>
+           <li><div id="Stage" class="VideoINTRO"></li>
+            </ul>
+               <article class="slideContent">
                 <header>
                     <h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">First post</a></h2> </header>
                 <footer>
@@ -115,8 +113,8 @@
     </div>
     <div>
     <ul class="sezione 3">
-    <li class="sez3-Primo"><div id="Stage" class="EDGE-168615556"></li>
-    <li class="sez3-Primo"><div id="Stage" class="EDGE-168615556"></li>
+    <li class="sez3-Primo"><div id="Stage2" class="EDGE-168615556"></li>
+
 
     </ul>
 	</div>

@@ -165,13 +165,17 @@ header label:hover {
 }
 
 .content {
-    width: 90%;
-    margin-top: 5%;
+    width: 100%;
+    margin-top: 1%;
     margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
     float: left;
-    background-color: aliceblue;
+
+}
+.content li{
+    list-style: none;
+}
+.content li div{
+    transform: scale(1.04);
 }
 
 .slideContent {
@@ -2199,3 +2203,8 @@ only screen and ( max-resolution: 2dppx) and (max-width: 480px) {
 }
 
 div.EDGE-168615556 {}
+
+.content img {
+    width: 100%;
+
+}

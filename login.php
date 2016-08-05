@@ -14,7 +14,7 @@
 		//echo "$count";
 		if($count == 1){
 			$_SESSION['login']= $username;
-			//echo $_SESSION['login'];
+			$_SESSION['usename']= $username;
 			header("Location:client.php");
 			die();
 

@@ -13,7 +13,7 @@
 <head>
 	<title>Users Main Page</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styleMainUser.css">
+	<link rel="stylesheet" type="text/css" href="CSS/styleMainUser.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
